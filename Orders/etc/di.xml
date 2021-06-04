@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- use plugin -->
+    <type name="Magento\Quote\Model\QuoteManagement">
+        <plugin name="DetectorDistOrderPlugin" type="DetectorDist\Orders\Plugin\ToOrderItem" sortOrder="1" disabled="false" />
+    </type>
+</config>
